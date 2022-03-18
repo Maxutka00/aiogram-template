@@ -1,5 +1,5 @@
 from aiogram import executor
-
+from utils.misc import logger
 from loader import dp
 import middlewares, filters, handlers
 from utils.notify_admins import on_startup_notify, on_shutdown_notify
